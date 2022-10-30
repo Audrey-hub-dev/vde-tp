@@ -1,17 +1,8 @@
 const notes = [20, 15, 17.5, 10, 13, 19];
 notes.sort();
 console.log(notes);
-
-/*
-function numAverage(list) {
-    var b = a.length,
-        c = 0, i;
-    for (i = 0; i < b; i++){
-      c += Number(a[i]);
-    }
-    return c/b;
-  }
-*/
+notes.reverse()
+console.log(notes); 
 
 
 function numAverage(list) {
